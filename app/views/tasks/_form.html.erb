@@ -1,7 +1,7 @@
 <div class="row">
   <div class="col-xs-12">
   <div class="col-sm-offset-2 col-sm-8">
-  <div class="col-ig-offset-3 col-ig-6">
+  <div class="col-lg-offset-3 col-lg-6">
    <%= form_for(task) do |f| %>
     <% if task.errors.any? %>
      <div class="alert alert-warning">
@@ -25,7 +25,5 @@
  
    <%= f.submit '投稿', class: 'btn btn-primary' %>
   <% end %>
- </div>
- </div>
  </div>
 </div>
